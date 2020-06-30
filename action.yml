@@ -1,0 +1,8 @@
+name: "tests42"
+description: "run tests/ scripts"
+branding:
+  icon: 'check-square'
+  color: 'green'
+runs:
+  using: "docker"
+  image: "Dockerfile"
